@@ -1,0 +1,123 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+
+body {
+  background: #19a1ae;
+  background-image: url(/img/background\ top.svg);
+  background-size: 50%;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.profile-card {
+  background-color: #fff;
+  border-radius: 1.5rem;
+  position: relative;
+}
+
+.name {
+  font-family: "Kumbh Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.8rem;
+  line-height: 2.2rem;
+  text-align: center;
+  color: #2e3349;
+  margin-bottom: 1.3rem;
+  margin-top: 7.2rem;
+}
+.name span {
+  font-family: "Kumbh Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #6b7082;
+  margin-left: 8.5px;
+}
+.city {
+  font-family: "Kumbh Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 1.7rem;
+  text-align: center;
+  color: #6b7082;
+  margin-bottom: 5.3rem;
+}
+
+.user {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 4.8rem;
+  margin-right: 4.8rem;
+}
+
+.follower-number,
+.like-number,
+.photo-number {
+  font-family: "Kumbh Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.8rem;
+  line-height: 2.2rem;
+  text-align: center;
+}
+
+.followers,
+.likes,
+.photos {
+  font-family: "Kumbh Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.2rem;
+  text-align: center;
+  letter-spacing: 1.5px;
+
+  color: #6b7082;
+}
+.follower,
+.like,
+.photo {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+}
+.user-box {
+  padding-bottom: 2.7rem;
+}
+
+.profile-picture {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 37%;
+}
+.svg-bottom {
+  position: fixed;
+  bottom: -43rem;
+  right: -33rem;
+  width: 97.8rem;
+  height: 97.6rem;
+  background: linear-gradient(
+    180deg,
+    rgba(9, 137, 180, 0.0001) 0.78%,
+    #53ffee 99.94%
+  );
+  border-radius: 100rem;
+}
